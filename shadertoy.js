@@ -46,8 +46,10 @@ function getShaderIDs(url){
       res=res.replace(']','');
       var ids=res.split(',');
       
-      //add in my own shaders a few times to increase visibility..hehe
-      ids.push('wssXzr','wssXzr','wssXzr','wssXzr','wssXzr','wssXzr','wssXzr','wssXzr','wssXzr','wssXzr','3sfXzr','3sfXzr','3sfXzr','3sfXzr','3sfXzr','3sfXzr','3sfXzr','3sfXzr','3sfXzr','3sfXzr');
+      if(url.includes("raymarch")){
+        //add in my own shaders a few times to increase visibility..hehe
+        ids.push('wssXzr','wssXzr','wssXzr','wssXzr','wssXzr','wssXzr','wssXzr','wssXzr','wssXzr','wssXzr','3sfXzr','3sfXzr','3sfXzr','3sfXzr','3sfXzr','3sfXzr','3sfXzr','3sfXzr','3sfXzr','3sfXzr');
+      }
       
       resolve(ids);
       
