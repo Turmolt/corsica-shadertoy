@@ -1,4 +1,4 @@
-const shadertoy = require('./shadertoyrequest.js');
+const shadertoy = require('./shadertoy.js');
 
 
 module.exports = function(corsica) {
