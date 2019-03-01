@@ -1,7 +1,7 @@
 {
     "name": "corsica-shadertoy",
-    "version": "1.0.0",
-    "description": "Displays raymarching shaders from shadertoy.",
+    "version": "1.0.1",
+    "description": "Displays raymarching shaders from shadertoy. You must add a key for your shadertoy API in the state command I.E. key=AAAAAA",
     "main": "index.js",
     "repository": {
       "type": "git",
